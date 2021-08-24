@@ -4,6 +4,7 @@ version = "0.5.4"
 description = "command line interface to a snappy data server client"
 authors = ["mleader <mleader@redhat.com>"]
 license = "Apache License 2.0"
+description = "try"
 readme = "README.md"
 repository = "https://github.com/cloud-bulldozer/data-server-cli.git"
 keywords = ["snappycli"]
