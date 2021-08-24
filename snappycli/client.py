@@ -29,7 +29,7 @@ def token(url: str, username: str, password: str) -> str:
 
 async def upload_bytes(filepath: Path, chunk_size: int = 524_288_000) -> AsyncGenerator[bytes, None]:
     # 500 MiB == 500 * 1024 * 1024 == 524,288,000
-    contents = 'dummy'
+    contents = "dummy"
     pointer = 0
     async with aiofiles.open(filepath, "rb") as file:
         while contents:
